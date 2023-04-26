@@ -1928,7 +1928,7 @@ do
             Bool = (not not Bool);
 
             Toggle.Value = Bool;
-            Toggle.TextLabel = Text
+            Toggle.TextLabel.Text = Text
             Toggle:Display();
 
             for _, Addon in next, Toggle.Addons do
